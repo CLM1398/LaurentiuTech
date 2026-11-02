@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="Premium electronics store" name="description" />
+    <title>Premium Electronics | LaurentiuTech</title>
+    <link href="images/logo.svg" rel="icon" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <div class="wrap">
+          <span> Free UK delivery on orders over £50 </span>
+          <div class="prefs">
+            <select aria-label="Language" data-language="">
+              <option value="en">EN</option>
+              <option value="ro">RO</option>
+              <option value="es">ES</option>
+              <option value="it">IT</option>
+              <option value="fr">FR</option>
+              <option value="de">DE</option>
+            </select>
+            <select aria-label="Currency" data-currency="">
+              <option>GBP</option>
+              <option>EUR</option>
+              <option>USD</option>
+              <option value="RON">RON (lei)</option>
+            </select>
+            <button
+              aria-label="Toggle colour theme"
+              class="icon-btn"
+              data-action="theme"
+            >
+              ◐
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="nav-wrap wrap">
+        <a class="brand" href="index.html">
+          <img alt="LaurentiuTech" src="images/logo.svg" />
+        </a>
+        <button
+          aria-label="Open navigation"
+          class="menu-btn"
+          data-action="menu"
+        >
+          ☰
+        </button>
+        <nav class="main-nav">
+          <a href="index.html"> Home </a>
+          <a href="products.html"> Products </a>
+          <a href="about.html"> About </a>
+          <a href="contact.html"> Contact </a>
+        </nav>
+        <div class="nav-actions">
+          <button aria-label="Search" class="icon-btn" data-action="search">
+            ⌕
+          </button>
+          <button aria-label="Wishlist" class="icon-btn" data-action="wishlist">
+            ♡
+            <b data-wishlist-count=""> 0 </b>
+          </button>
+          <button aria-label="Compare" class="icon-btn" data-action="compare">
+            ⇄
+            <b data-compare-count=""> 0 </b>
+          </button>
+          <a aria-label="Cart" class="icon-btn" href="cart.html">
+            🛒
+            <b data-cart-count=""> 0 </b>
+          </a>
+        </div>
+      </div>
+      <div class="search-panel">
+        <div class="wrap">
+          <input
+            data-global-search=""
+            placeholder="Search products, brands or categories"
+            type="search"
+          />
+          <button data-action="close-search">×</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero home-hero">
+        <div class="wrap hero-content">
+          <span class="eyebrow"> LAURENTIUTECH </span>
+          <h1>Technology that performs.</h1>
+          <p>
+            Discover premium electronics selected for performance, design and
+            everyday value.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="products.html"> Shop products </a>
+            <a class="btn ghost" href="about.html"> Why LaurentiuTech </a>
+          </div>
+        </div>
+      </section>
+      <section class="section wrap">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow dark"> SHOP BY CATEGORY </span>
+            <h2>Find your next upgrade</h2>
+          </div>
+          <a href="products.html"> View all products → </a>
+        </div>
+        <div class="category-grid" data-category-grid=""></div>
+      </section>
+      <section class="section soft">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow dark"> FEATURED </span>
+              <h2>Popular technology</h2>
+            </div>
+          </div>
+          <div class="product-grid" data-featured=""></div>
+        </div>
+      </section>
+      <section class="promo-grid wrap section">
+        <article class="promo">
+          <h2>Gaming without compromise</h2>
+          <p>Consoles, components and performance accessories.</p>
+          <a href="products.html?category=Gaming"> Explore gaming </a>
+        </article>
+        <article class="promo alt">
+          <h2>Work smarter</h2>
+          <p>Reliable laptops and accessories for productive days.</p>
+          <a href="products.html?category=Laptops"> Shop laptops </a>
+        </article>
+      </section>
+      <section class="benefits wrap section">
+        <article>
+          <b> 24-month warranty </b>
+          <span> Clear warranty information on every product. </span>
+        </article>
+        <article>
+          <b> Fast UK delivery </b>
+          <span> Tracked shipping and free delivery on eligible orders. </span>
+        </article>
+        <article>
+          <b> Secure checkout </b>
+          <span> A realistic educational checkout experience. </span>
+        </article>
+        <article>
+          <b> Helpful support </b>
+          <span> Contact forms and an interactive support assistant. </span>
+        </article>
+      </section>
+      <section class="newsletter">
+        <div class="wrap">
+          <div>
+            <span class="eyebrow"> STAY UPDATED </span>
+            <h2>Product news and offers</h2>
+          </div>
+          <form data-newsletter="">
+            <input placeholder="Email address" required="" type="email" />
+            <button class="btn dark">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <img
+            alt="LaurentiuTech"
+            class="footer-logo"
+            src="images/logo-white.svg"
+          />
+          <p>
+            Premium electronics, transparent pricing and dependable support.
+          </p>
+        </div>
+        <div>
+          <h3>Shop</h3>
+          <a href="products.html"> All products </a>
+          <a href="products.html?category=Smartphones"> Smartphones </a>
+          <a href="products.html?category=Laptops"> Laptops </a>
+          <a href="products.html?category=Gaming"> Gaming </a>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <a href="contact.html"> Contact </a>
+          <a href="about.html"> About us </a>
+          <a href="cart.html"> Shopping cart </a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>support@laurentiutech.co.uk</p>
+          <p>+44 20 1234 5678</p>
+          <p>London, United Kingdom</p>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 LaurentiuTech. Educational e-commerce project.
+      </div>
+    </footer>
+    <button class="chat-toggle" data-action="chat">💬</button>
+    <aside class="chat">
+      <header>
+        <strong> LaurentiuTech Assistant </strong>
+        <button data-action="chat-close">×</button>
+      </header>
+      <div class="chat-messages" data-chat-messages=""></div>
+      <form data-chat-form="">
+        <input
+          name="message"
+          placeholder="Ask about delivery, returns or warranty"
+          required=""
+        />
+        <button>Send</button>
+      </form>
+    </aside>
+    <div class="drawer" data-drawer="">
+      <div class="drawer-head">
+        <h2 data-drawer-title=""></h2>
+        <button data-action="drawer-close">×</button>
+      </div>
+      <div data-drawer-content=""></div>
+    </div>
+    <div class="toast" data-toast="" role="status"></div>
+    <button class="back-top" data-action="top">↑</button>
+    <script src="js/translations.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

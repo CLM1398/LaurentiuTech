@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="Contact LaurentiuTech" name="description" />
+    <title>Contact | LaurentiuTech</title>
+    <link href="images/logo.svg" rel="icon" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <div class="wrap">
+          <span> Free UK delivery on orders over £50 </span>
+          <div class="prefs">
+            <select aria-label="Language" data-language="">
+              <option value="en">EN</option>
+              <option value="ro">RO</option>
+              <option value="es">ES</option>
+              <option value="it">IT</option>
+              <option value="fr">FR</option>
+              <option value="de">DE</option>
+            </select>
+            <select aria-label="Currency" data-currency="">
+              <option>GBP</option>
+              <option>EUR</option>
+              <option>USD</option>
+              <option value="RON">RON (lei)</option>
+            </select>
+            <button
+              aria-label="Toggle colour theme"
+              class="icon-btn"
+              data-action="theme"
+            >
+              ◐
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="nav-wrap wrap">
+        <a class="brand" href="index.html">
+          <img alt="LaurentiuTech" src="images/logo.svg" />
+        </a>
+        <button
+          aria-label="Open navigation"
+          class="menu-btn"
+          data-action="menu"
+        >
+          ☰
+        </button>
+        <nav class="main-nav">
+          <a href="index.html"> Home </a>
+          <a href="products.html"> Products </a>
+          <a href="about.html"> About </a>
+          <a href="contact.html"> Contact </a>
+        </nav>
+        <div class="nav-actions">
+          <button aria-label="Search" class="icon-btn" data-action="search">
+            ⌕
+          </button>
+          <button aria-label="Wishlist" class="icon-btn" data-action="wishlist">
+            ♡
+            <b data-wishlist-count=""> 0 </b>
+          </button>
+          <button aria-label="Compare" class="icon-btn" data-action="compare">
+            ⇄
+            <b data-compare-count=""> 0 </b>
+          </button>
+          <a aria-label="Cart" class="icon-btn" href="cart.html">
+            🛒
+            <b data-cart-count=""> 0 </b>
+          </a>
+        </div>
+      </div>
+      <div class="search-panel">
+        <div class="wrap">
+          <input
+            data-global-search=""
+            placeholder="Search products, brands or categories"
+            type="search"
+          />
+          <button data-action="close-search">×</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero page-hero contact-hero">
+        <div class="wrap hero-content">
+          <span class="eyebrow"> CONTACT </span>
+          <h1>How can we help?</h1>
+          <p>
+            Send a message and the LaurentiuTech team will be ready to assist.
+          </p>
+        </div>
+      </section>
+      <section class="section wrap contact-layout">
+        <aside class="contact-card">
+          <h2>Contact information</h2>
+          <p>
+            <b> Email </b>
+            <br />
+            support@laurentiutech.co.uk
+          </p>
+          <p>
+            <b> Telephone </b>
+            <br />
+            +44 20 1234 5678
+          </p>
+          <p>
+            <b> Location </b>
+            <br />
+            London, United Kingdom
+          </p>
+          <p>
+            <b> Hours </b>
+            <br />
+            Monday–Friday, 09:00–18:00
+          </p>
+        </aside>
+        <form class="contact-form" data-contact-form="">
+          <h2>Send us a message</h2>
+          <div class="form-grid">
+            <label>
+              Full name
+              <input minlength="2" name="name" required="" />
+            </label>
+            <label>
+              Email
+              <input name="email" required="" type="email" />
+            </label>
+            <label class="wide">
+              Subject
+              <select name="subject" required="">
+                <option value="">Choose a subject</option>
+                <option>Product question</option>
+                <option>Order support</option>
+                <option>Returns</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label class="wide">
+              Message
+              <textarea
+                minlength="10"
+                name="message"
+                required=""
+                rows="7"
+              ></textarea>
+            </label>
+          </div>
+          <button class="btn primary" type="submit">Send message</button>
+        </form>
+      </section>
+      <section class="faq section soft">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow dark"> FAQ </span>
+              <h2>Common questions</h2>
+            </div>
+          </div>
+          <details>
+            <summary>How long does delivery take?</summary>
+            <p>Standard UK delivery usually takes 3–5 working days.</p>
+          </details>
+          <details>
+            <summary>Can I return a product?</summary>
+            <p>Eligible products may be returned within 30 days.</p>
+          </details>
+          <details>
+            <summary>Is this a real payment website?</summary>
+            <p>
+              No. LaurentiuTech is an educational front-end project and does not
+              process payments.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <img
+            alt="LaurentiuTech"
+            class="footer-logo"
+            src="images/logo-white.svg"
+          />
+          <p>
+            Premium electronics, transparent pricing and dependable support.
+          </p>
+        </div>
+        <div>
+          <h3>Shop</h3>
+          <a href="products.html"> All products </a>
+          <a href="products.html?category=Smartphones"> Smartphones </a>
+          <a href="products.html?category=Laptops"> Laptops </a>
+          <a href="products.html?category=Gaming"> Gaming </a>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <a href="contact.html"> Contact </a>
+          <a href="about.html"> About us </a>
+          <a href="cart.html"> Shopping cart </a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>support@laurentiutech.co.uk</p>
+          <p>+44 20 1234 5678</p>
+          <p>London, United Kingdom</p>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 LaurentiuTech. Educational e-commerce project.
+      </div>
+    </footer>
+    <button class="chat-toggle" data-action="chat">💬</button>
+    <aside class="chat">
+      <header>
+        <strong> LaurentiuTech Assistant </strong>
+        <button data-action="chat-close">×</button>
+      </header>
+      <div class="chat-messages" data-chat-messages=""></div>
+      <form data-chat-form="">
+        <input
+          name="message"
+          placeholder="Ask about delivery, returns or warranty"
+          required=""
+        />
+        <button>Send</button>
+      </form>
+    </aside>
+    <div class="drawer" data-drawer="">
+      <div class="drawer-head">
+        <h2 data-drawer-title=""></h2>
+        <button data-action="drawer-close">×</button>
+      </div>
+      <div data-drawer-content=""></div>
+    </div>
+    <div class="toast" data-toast="" role="status"></div>
+    <button class="back-top" data-action="top">↑</button>
+    <script src="js/translations.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

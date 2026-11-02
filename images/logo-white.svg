@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 72" role="img" aria-labelledby="title">
+  <title id="title">LaurentiuTech</title>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#2f7cff"/><stop offset="1" stop-color="#00c2ff"/></linearGradient></defs>
+  <rect x="1" y="1" width="70" height="70" rx="18" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".16"/>
+  <path d="M20 14h21l-8 17h18L25 59l8-20H16z" fill="url(#g)"/>
+  <text x="88" y="46" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="27" fill="#ffffff">Laurentiu<tspan dx="5" fill="#38bdf8">Tech</tspan></text>
+</svg>
