@@ -1064,3 +1064,34 @@ p {
   width: 235px;
   max-width: 100%;
 }
+
+/* Portfolio refinement: consistent product card layout */
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-buttons {
+  margin-top: auto;
+}
+
+.product-buttons .btn {
+  min-height: 52px;
+  text-align: center;
+}
+
+/* Give product cards more room on the catalogue page */
+
+.catalogue .product-grid {
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(100%, 220px), 1fr)
+  );
+}
